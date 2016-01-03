@@ -1,0 +1,117 @@
+{
+  "title": "EntityInfo",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "11": {
+      "title": "SubscriptionInfo",
+      "id": 4
+    },
+    "-1": {
+      "title": "Equality",
+      "id": 5
+    },
+    "-2": {
+      "title": "Path",
+      "id": 6,
+      "ideas": {
+        "8": {
+          "title": "SubscriptionManager",
+          "id": 18,
+          "ideas": {
+            "1": {
+              "title": "TopologyCreator",
+              "id": 9,
+              "ideas": {
+                "1": {
+                  "title": "AzureServiceBusSubscriptionCreatorV6",
+                  "id": 11,
+                  "attr": {
+                    "style": {},
+                    "position": [
+                      -91.5,
+                      26.75,
+                      1
+                    ]
+                  },
+                  "ideas": {}
+                },
+                "0.5": {
+                  "title": "AzureServiceBusSubscriptionCreator",
+                  "id": 12,
+                  "attr": {
+                    "style": {},
+                    "position": [
+                      91.5,
+                      -59.8125,
+                      2
+                    ]
+                  }
+                }
+              },
+              "attr": {
+                "style": {}
+              }
+            },
+            "13": {
+              "title": "TopologyOperator",
+              "id": 14,
+              "attr": {
+                "style": {},
+                "position": [
+                  36.5,
+                  126.46875,
+                  1
+                ]
+              },
+              "ideas": {
+                "1": {
+                  "title": "MessageReceiverNotifier",
+                  "id": 15,
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              }
+            },
+            "0.5": {
+              "title": "StandardTopologySectionManager",
+              "id": 13,
+              "attr": {
+                "style": {},
+                "position": [
+                  99.5,
+                  -102.53125,
+                  2
+                ]
+              }
+            }
+          }
+        },
+        "18": {
+          "title": "DefaultOutgoingBatchRouter",
+          "id": 16,
+          "attr": {
+            "position": [
+              66.5,
+              136.8828125,
+              1
+            ],
+            "style": {}
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#ff6600"
+        }
+      }
+    }
+  },
+  "links": [],
+  "attr": {
+    "style": {
+      "background": "#ffffff"
+    }
+  }
+}
